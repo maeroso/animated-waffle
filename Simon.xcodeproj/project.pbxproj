@@ -16,6 +16,18 @@
 		D3CE613926DDC3B90076098E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CE613826DDC3B90076098E /* Assets.xcassets */; };
 		D3CE614426DDC3B90076098E /* SimonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE614326DDC3B90076098E /* SimonTests.swift */; };
 		D3CE614F26DDC3B90076098E /* SimonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE614E26DDC3B90076098E /* SimonUITests.swift */; };
+		D3CE615D26DDC4D50076098E /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3CE615C26DDC4D50076098E /* MainMenuScene.sks */; };
+		D3CE615F26DDC7860076098E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE615E26DDC7860076098E /* MainMenuScene.swift */; };
+		D3CE616126DDC90C0076098E /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616026DDC90C0076098E /* GameOverScene.sks */; };
+		D3CE616326DDC9700076098E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE616226DDC9700076098E /* GameOverScene.swift */; };
+		D3CE616526DDCA240076098E /* SimonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE616426DDCA240076098E /* SimonButton.swift */; };
+		D3CE616F26DDCCCE0076098E /* blue.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616926DDCCCE0076098E /* blue.caf */; };
+		D3CE617026DDCCCE0076098E /* yellow.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616A26DDCCCE0076098E /* yellow.caf */; };
+		D3CE617126DDCCCE0076098E /* red.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616B26DDCCCE0076098E /* red.caf */; };
+		D3CE617226DDCCCE0076098E /* gameover.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616C26DDCCCE0076098E /* gameover.caf */; };
+		D3CE617326DDCCCE0076098E /* green.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616D26DDCCCE0076098E /* green.caf */; };
+		D3CE617426DDCCCE0076098E /* startgame.caf in Resources */ = {isa = PBXBuildFile; fileRef = D3CE616E26DDCCCE0076098E /* startgame.caf */; };
+		D3CE617626DDCD010076098E /* Buttons.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D3CE617526DDCD010076098E /* Buttons.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		D3CE614A26DDC3B90076098E /* SimonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CE614E26DDC3B90076098E /* SimonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonUITests.swift; sourceTree = "<group>"; };
 		D3CE615026DDC3B90076098E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CE615C26DDC4D50076098E /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		D3CE615E26DDC7860076098E /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D3CE616026DDC90C0076098E /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		D3CE616226DDC9700076098E /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		D3CE616426DDCA240076098E /* SimonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonButton.swift; sourceTree = "<group>"; };
+		D3CE616926DDCCCE0076098E /* blue.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blue.caf; sourceTree = "<group>"; };
+		D3CE616A26DDCCCE0076098E /* yellow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yellow.caf; sourceTree = "<group>"; };
+		D3CE616B26DDCCCE0076098E /* red.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = red.caf; sourceTree = "<group>"; };
+		D3CE616C26DDCCCE0076098E /* gameover.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameover.caf; sourceTree = "<group>"; };
+		D3CE616D26DDCCCE0076098E /* green.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = green.caf; sourceTree = "<group>"; };
+		D3CE616E26DDCCCE0076098E /* startgame.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = startgame.caf; sourceTree = "<group>"; };
+		D3CE617526DDCD010076098E /* Buttons.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Buttons.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,8 @@
 		D3CE612A26DDC3B40076098E /* Simon */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE617526DDCD010076098E /* Buttons.atlas */,
+				D3CE616826DDCCCE0076098E /* Sound Effects */,
 				D3CE612B26DDC3B40076098E /* AppDelegate.swift */,
 				D3CE612D26DDC3B40076098E /* GameScene.sks */,
 				D3CE612F26DDC3B40076098E /* Actions.sks */,
@@ -109,6 +135,11 @@
 				D3CE613526DDC3B40076098E /* Main.storyboard */,
 				D3CE613826DDC3B90076098E /* Assets.xcassets */,
 				D3CE613A26DDC3B90076098E /* Info.plist */,
+				D3CE615C26DDC4D50076098E /* MainMenuScene.sks */,
+				D3CE615E26DDC7860076098E /* MainMenuScene.swift */,
+				D3CE616026DDC90C0076098E /* GameOverScene.sks */,
+				D3CE616226DDC9700076098E /* GameOverScene.swift */,
+				D3CE616426DDCA240076098E /* SimonButton.swift */,
 			);
 			path = Simon;
 			sourceTree = "<group>";
@@ -129,6 +160,19 @@
 				D3CE615026DDC3B90076098E /* Info.plist */,
 			);
 			path = SimonUITests;
+			sourceTree = "<group>";
+		};
+		D3CE616826DDCCCE0076098E /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE616926DDCCCE0076098E /* blue.caf */,
+				D3CE616A26DDCCCE0076098E /* yellow.caf */,
+				D3CE616B26DDCCCE0076098E /* red.caf */,
+				D3CE616C26DDCCCE0076098E /* gameover.caf */,
+				D3CE616D26DDCCCE0076098E /* green.caf */,
+				D3CE616E26DDCCCE0076098E /* startgame.caf */,
+			);
+			path = "Sound Effects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,10 +278,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CE617326DDCCCE0076098E /* green.caf in Resources */,
+				D3CE617426DDCCCE0076098E /* startgame.caf in Resources */,
+				D3CE617126DDCCCE0076098E /* red.caf in Resources */,
 				D3CE613726DDC3B40076098E /* Main.storyboard in Resources */,
 				D3CE612E26DDC3B40076098E /* GameScene.sks in Resources */,
 				D3CE613926DDC3B90076098E /* Assets.xcassets in Resources */,
+				D3CE616F26DDCCCE0076098E /* blue.caf in Resources */,
 				D3CE613026DDC3B40076098E /* Actions.sks in Resources */,
+				D3CE616126DDC90C0076098E /* GameOverScene.sks in Resources */,
+				D3CE617026DDCCCE0076098E /* yellow.caf in Resources */,
+				D3CE617226DDCCCE0076098E /* gameover.caf in Resources */,
+				D3CE615D26DDC4D50076098E /* MainMenuScene.sks in Resources */,
+				D3CE617626DDCD010076098E /* Buttons.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CE616326DDC9700076098E /* GameOverScene.swift in Sources */,
 				D3CE613226DDC3B40076098E /* GameScene.swift in Sources */,
 				D3CE613426DDC3B40076098E /* GameViewController.swift in Sources */,
+				D3CE615F26DDC7860076098E /* MainMenuScene.swift in Sources */,
+				D3CE616526DDCA240076098E /* SimonButton.swift in Sources */,
 				D3CE612C26DDC3B40076098E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
